@@ -42,7 +42,8 @@ public class OpensourceloginDemo {
 		
 		//driver.findElement(By.xpath(commentkey)).click();
 		driver.findElement(By.linkText(signoutkey));
-		driver.close();
+		System.out.println("1st change");
+		//driver.close();
 		
 		
 	}
